@@ -29,7 +29,7 @@ app.post("/chat", async (req, res) => {
   } catch (error) {
     console.log("ERROR:", error);
     res.json({
-      reply: "Something went wrong 💗"
+      reply: "Something went wrong 💗" 
     });
   }
 });
